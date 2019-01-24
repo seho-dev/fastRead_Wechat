@@ -1,0 +1,54 @@
+/* 覆盖mint-ui的primary颜色，改为自己UI的主题色 */
+.mint-header {
+  background-color: #EA5A49;
+}
+.mint-button:not(.is-disabled):active::after {
+    opacity: .2 /* .6 */
+}
+.mint-button--primary {
+    background-color: #EA5A49;
+}
+.mint-button--primary.is-plain {
+    border: 1px solid #EA5A49;
+    color: #EA5A49
+}
+.mint-badge.is-primary {
+  background-color: #EA5A49
+}
+.mint-switch-input:checked + .mint-switch-core {
+  border-color: #EA5A49;
+  background-color: #EA5A49;
+}
+.mint-navbar .mint-tab-item.is-selected {
+  border-bottom: 3px solid #EA5A49;
+  color: #EA5A49;
+}
+.mint-tabbar > .mint-tab-item.is-selected {
+  color: #EA5A49;
+}
+.mint-searchbar-cancel {
+  color: #EA5A49;
+}
+.mint-checkbox-input:checked + .mint-checkbox-core {
+  background-color: #EA5A49;
+  border-color: #EA5A49;
+}
+.mint-radio-input:checked + .mint-radio-core {
+  background-color: #EA5A49;
+  border-color: #EA5A49;
+}
+.mt-range-progress {
+  background-color: #EA5A49;
+}
+.mt-progress-progress {
+  background-color: #EA5A49;
+}
+.mint-msgbox-confirm {
+  color: #EA5A49;
+}
+.mint-msgbox-confirm:active {
+  color: #EA5A49;
+}
+.mint-datetime-action {
+  color: #EA5A49;
+}
